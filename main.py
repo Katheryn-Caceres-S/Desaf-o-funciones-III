@@ -1,11 +1,14 @@
 """
 menu 
-cambiar los jugos
-modificar agregar y eliminar  ingredientes 
-tiempo
-mostrar
+cambiar el tipo de base (masa tradicional, delgada y bordes de queso)
+Cambiar el tipo de salsa (tomate alfredo, barbacue y pesto)
+modificar agregar y eliminar  ingredientes (varios)
+tiempo que tomara la pizza (20 minutos + 2 minutos por ingrediente adicional, masa y salsa)
+mostrar los ingredientes
 salir
 """
+from pizza.menu import menu
+
 
 #bucle 
 
@@ -25,5 +28,6 @@ def main ():
         elif opcion == "4":
             print("4")
 
-        elif opcion 
+        else:
+            exit()
 
