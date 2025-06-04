@@ -8,11 +8,15 @@ mostrar los ingredientes
 salir
 """
 from pizza.menu import menu
+from pizza.crear_pizza import crear_pizza
+from pizza.tipo_masa import tipo_masa
 
 
 #bucle 
 
 def main ():
+    pizza = crear_pizza()
+
     while True:
         opcion = input("opcion")
 
@@ -29,5 +33,7 @@ def main ():
             print("4")
 
         else:
-            exit()
+            print("salir")
 
+if __name__ == "__main__":
+    main()
