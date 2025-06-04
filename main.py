@@ -10,7 +10,7 @@ salir
 from pizza.menu import menu
 from pizza.crear_pizza import crear_pizza
 from pizza.tipo_masa import tipo_masa
-# from pizza.salsa import salsa
+from pizza.tipo_salsa import tipo_salsa
 # from pizza.agregar_ingrediente import agregar_ingrediente
 # from pizza.quitar_ingrediente import quitar_ingrediente
 
@@ -31,7 +31,7 @@ def main ():
 
         elif opcion == "2":
             """"Aqui se ingresa el tipo de salsa"""
-            salsa(pizza)
+            tipo_salsa(pizza)
             print(pizza)
 
         elif opcion == "3":
