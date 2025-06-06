@@ -28,6 +28,6 @@ Selecciona tu salsa favorita
         print(f"base de {pizza["salsa"]} agregado correctamente... ")    
     
     else:
-        print("opcion no soportada..")
+        print("opcion errada, vuelve a intentarlo")
 
     return pizza

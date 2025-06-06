@@ -10,4 +10,4 @@ def tiempo (pizza):
     cantidad_ingredientes = len(pizza.get("ingredientes",[]))
     tiempo_total = tiempo_min + tiempo_x_ingrediente * cantidad_ingredientes
 
-    print(f"El tiempo de tu pizza es de {tiempo_total} minutos")
+    print(f"El tiempo de preparación de tu pizza es de {tiempo_total} minutos")

@@ -24,7 +24,7 @@ def main ():
 
     while True:
         menu()
-        opcion = input("Indica la opción a modificar: ")
+        opcion = input("Indica la opción en el siguiente menu: ")
 
         if opcion =="1":
             tipo_masa(pizza)
@@ -47,16 +47,12 @@ def main ():
 
         elif opcion == "5":
             """"Mostrar la pizza construida"""
-            print("5")
+            print(pizza)
 
         elif opcion == "6":
             """"Aqui se indica el tiempo de fabricacion"""
             tiempo(pizza)
-            print("6")
-
-        elif opcion == "7":
-            """"esta es la opcion de salida del menu"""
-            print("7")
+            print(pizza)
 
         else:
             print("salir")
