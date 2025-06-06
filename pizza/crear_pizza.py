@@ -1,8 +1,8 @@
 def crear_pizza():
     pizza = {
-        "Tipo de masa":"",
-        "Salsa":"",
-        "Ingredientes": []
+        "masa":"",
+        "salsa":"",
+        "ingredientes": []
     }
     
     return pizza

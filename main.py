@@ -11,8 +11,9 @@ from pizza.menu import menu
 from pizza.crear_pizza import crear_pizza
 from pizza.tipo_masa import tipo_masa
 from pizza.tipo_salsa import tipo_salsa
-# from pizza.agregar_ingrediente import agregar_ingrediente
-# from pizza.quitar_ingrediente import quitar_ingrediente
+from pizza.agregar_ingrediente import agregar_ingrediente
+from pizza.quitar_ingrediente import quitar_ingrediente
+from pizza.tiempo import tiempo
 
 
 #bucle 
@@ -36,18 +37,21 @@ def main ():
 
         elif opcion == "3":
             """"Aqui se agregan ingredientes"""
-            print("3")
+            agregar_ingrediente(pizza)
+            print(pizza)
 
         elif opcion == "4":
             """"Aqui se quitan ingredientes"""
-            print("4")
+            quitar_ingrediente(pizza)
+            print(pizza)
 
         elif opcion == "5":
-            """"mostrar la pizza construida"""
+            """"Mostrar la pizza construida"""
             print("5")
 
         elif opcion == "6":
             """"Aqui se indica el tiempo de fabricacion"""
+            tiempo(pizza)
             print("6")
 
         elif opcion == "7":

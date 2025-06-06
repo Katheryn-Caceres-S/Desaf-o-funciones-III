@@ -11,21 +11,21 @@ Selecciona tu salsa favorita
 4. pesto
 """)
 
-    if opcion == salsa[0]:
+    if opcion == "1":
         pizza["salsa"] = "tomate"
-        print(f"base de {pizza["tomate"]} agregado correctamente... ")
+        print(f"base de {pizza["salsa"]} agregado correctamente... ")
     
-    elif opcion == salsa[1]:
+    elif opcion == "2":
         pizza["salsa"] = "alfredo"
-        print(f"base de {pizza["alfredo"]} agregado correctamente... ")
+        print(f"base de {pizza["salsa"]} agregado correctamente... ")
     
-    elif opcion == salsa[2]:
+    elif opcion == "3":
         pizza["salsa"] = "barbacue"   
-        print(f"base de {pizza["barbacue"]} agregado correctamente... ")
+        print(f"base de {pizza["salsa"]} agregado correctamente... ")
     
-    elif opcion == salsa[3]:
+    elif opcion == "4":
         pizza["salsa"] = "pesto"
-        print(f"base de {pizza["pesto"]} agregado correctamente... ")    
+        print(f"base de {pizza["salsa"]} agregado correctamente... ")    
     
     else:
         print("opcion no soportada..")
